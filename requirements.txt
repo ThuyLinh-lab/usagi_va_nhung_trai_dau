@@ -1,0 +1,7 @@
+# Thu vien chinh - chon 1 trong 2 tuy thuoc vao phien ban Python:
+#   Python <= 3.12: dung pygame
+#   Python 3.13+  : dung pygame-ce (Community Edition)
+
+# Cai dat tu dong (pip chon phu hop):
+pygame>=2.0.0; python_version < "3.13"
+pygame-ce>=2.5.0; python_version >= "3.13"
